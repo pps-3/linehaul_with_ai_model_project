@@ -1,0 +1,50 @@
+# ==============================
+# Backend - Spring Boot / Maven
+# ==============================
+
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Environment / secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# ==============================
+# Frontend - Node / Vite
+# ==============================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment / secrets
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==============================
+# General
+# ==============================
+
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS / temporary files
+*.swp
+*.swo
+*~
+
+# ==============================
+# Environment files anywhere
+# ==============================
+
+.env
+.env.*
+!.env.example
