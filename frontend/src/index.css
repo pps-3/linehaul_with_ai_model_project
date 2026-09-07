@@ -846,8 +846,8 @@ button {
 .chat-fab {
   position: fixed;
   right: 20px;
-  bottom: 20px;
-  z-index: 30;
+  bottom: 80px;
+  z-index: 9999;
   border: none;
   background: var(--blue);
   color: #fff;
